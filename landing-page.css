@@ -1,0 +1,66 @@
+/* display: block; margin-left: auto; margin-right: auto; width: 50% */
+/*Use this for centering an image*/
+/*
+@media only screen and (max-width:) {}
+*/
+/*Use this for Media Queries*/
+
+#header-img{
+  width: 100px;
+  height: auto;
+}
+
+html, #email, #submit{
+  background-color: black;
+  color: white;
+}
+
+#header{
+  background-color: black;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: white;
+  color:  black;
+  cursor: pointer;
+}
+
+.product {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  display: block; margin-left: auto; margin-right: auto; width: 50%;
+}
+
+.Bullets{
+  align-items: flex-start;
+  align-content: flex-start;
+  text-align: left;
+}
+iFrame{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 560px) {
+    iFrame{
+      width: auto;
+      height: auto;
+    }
+
+}
